@@ -1,0 +1,252 @@
+*{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 99;
+}
+.nav{
+    width: 50%;
+    height: 100%;
+}
+.caixa_botoes_menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.botao_menu{
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+}
+.botao_menu:hover{
+    color: #CA0000;
+}
+.inicio{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F5F5;
+    padding-top: 100px;
+}
+.o-container{
+    width: 90%;
+    height: auto;
+}
+.caixa_texto{
+    height: 500px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content:center ;
+}
+.texto{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.nome{
+    font-size: 50px;
+    color: #CA0000;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.descricao{
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 20px;
+    line-height: 1.4rem;
+}
+.caixa_botao{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.button{
+    color: #fff;
+    width: 300px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    background-color:#CA0000 ;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+}
+.button:hover{
+    opacity: 0.9;
+}
+.minhha_historia{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.historia{
+    display: flex;
+    margin-bottom: 50px;
+}
+.img_historia{
+  width: 50%;
+  height: 400px;  
+  position: relative;
+}
+.foto_historia{
+    width: 600px;
+    height: 500px;
+    top:20px;
+    position: relative;
+    object-fit: contain;
+}
+.caixa_texto_historia{
+    width: 50%;
+    height: auto;
+    margin-top: 60px;
+}
+.tit_sup{
+    font-weight: 600;
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    padding-bottom: 5px;
+    text-align: end;
+}
+.espaco{
+    margin-bottom: 20px;
+}
+.titulo{
+    color: #CA0000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    text-align: end;
+    font-weight: 700;
+}
+.descricao_texto_hist{
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 1.4rem;
+    text-align: end;
+    padding-top: 15px;
+}
+
+.projetos{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F5F5;
+}
+.projeto{
+    display: flex;
+}
+.text_projeto{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.tit_projeto{
+    font-size: 25px;
+    color: #000;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 600;
+    
+}
+.describe_projeto{
+    font-size: 15px;
+    color: #000;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    text-align: start;
+}
+.caixa_cards{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background-color: #fff;
+    border-radius: 20px;
+    width: 30%;
+    margin-left: 10px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.tit_card{
+    font-size: 16px;
+    color: #000;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 600;
+    padding-top: 20px;   
+}
+
+.describe_card{
+    font-size: 14px;
+    color: #000;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    padding-top: 12px; 
+    
+}
+.caixa-button-projeto{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.button-projeto{
+    color: #fff;
+    width: 80%;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    background-color:#CA0000 ;
+    border-radius: 20px;
+    text-align: center;
+    padding: 8px 0px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-decoration:none;
+}
